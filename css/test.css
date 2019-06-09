@@ -1,36 +1,43 @@
 nav{
   top: 0;
-  width: 50%;
-  background-color: #333;
-  position: fixed;
+  background-color: #00a693;
+  width: 90%;
+  height: 6vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  border-radius: 0px 0px 45px 45px;
+  border:  solid;
+  border-width: thin;
+  border-color: #D7DEE1;
+
+  }
+
+body{
+  margin: 0px;
+  background-color: #EFF2F3;
 }
 .button {
-
   text-align: center;
-  font-size: 17px;
-  float: left;
+  font-size: 20px;
+  flex : 1;
   text-decoration: none;
   cursor: pointer;
-	padding: 14px 16px;
+  padding: 8px;
 	color: white;
-	transition: 0.6s;
-  font-family:impact;
-
+  font-family: open sans;
 }
- .button:hover{
-	background-color: white;
-	color: black;
+#button1:hover{
+background-color: #E74C3C;
+border-radius: 0px 0px 0px 45px;
 }
-
-.btngroup{
-	padding-bottom: 5px;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-
-
+#button2:hover{
+background-color: #E74C3C;
 }
-
+#button3:hover{
+background-color: #E74C3C;
+border-radius: 0px 0px 45px 0px;
+}
 .Shop img{
   width: 200px;
   height: 200px;
