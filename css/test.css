@@ -2,8 +2,8 @@
 body{
   margin: 0;
   background: #222;
-  font-family: 'Work Sans' , sans-serif;
-  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
 }
 .container{
   width: 80%;
@@ -49,7 +49,6 @@ font-size: 14px ;
 
 nav a:hover{
   color: #000;
-  transition
 }
  nav a::before{  /* izveido virs texta swipe baru */
   content: '';
@@ -66,6 +65,56 @@ nav a:hover{
   transition: all ease-in-out 250ms;
  }
 
+
+.imagegallery img{
+  float: left;
+width: 600px;
+height: 400px;
+margin-left: 40px;
+margin-top:30px;
+border: solid;
+border-color:red;
+border-width: thin;
+
+
+}
+.imagegallerytext h2{
+  float:right;
+  margin-right: 350px;
+  margin-top: 30px;
+  color:#55d6aa;
+  font-weight: 600;
+  text-transform:uppercase;
+  border:solid;
+  padding:5px;
+}
+.imagegallerytext p{
+  float:right;
+  color:#55d6aa;
+  font-weight: 600;
+  margin-left : 800px;
+}
+
+
+.imgbuttons ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 ;
+}
+.imgbuttons li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 70px;
+  padding-top: 5px;
+  color:#55d6aa;
+  
+
+  border:solid;
+  border-width: thin;
+}
+.content{
+  float:left;
+}
 
 .Shop img{
   width: 200px;
@@ -96,3 +145,4 @@ h3{
 li{
   color:white;
 }
+
