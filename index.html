@@ -7,10 +7,11 @@
 </head>
 <body>
 <header>
-	<div class="container"> <!-- navbara propertiji -->
-<!-- Seit liktu logo img -->
-  <nav>
-	<ul>
+	<div class="container"> 
+  <div class="container">
+      <a class="logo" href="#">EXHALE.LV</a>
+
+      <nav>
 	<li><a href="#">Home</a></li>
 	<li><a href="#section1">Shop</a></li>  
 	<li><a href="#section2">About</a></li>  
@@ -18,63 +19,6 @@
     </nav>  
 </div>
 </header>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script>
-    $( document ).ready(function() {
-
-        var images = [
-            "dudevapes.jpg",
-            "girlvapes.jpg"    
-        ];
-
-        var imageIndex = 0;
-
-        $("#previous").on("click", function(){          
-            imageIndex = (imageIndex + images.length -1) % (images.length);    
-            $("#image").attr('src', images[imageIndex]);
-        });
-
-        $("#next").on("click", function(){
-            imageIndex = (imageIndex+1) % (images.length);    
-            $("#image").attr('src', images[imageIndex]);
-        });
-
-        $("#image").attr(images[0]);
-
-    });
-</script>
-
-
-<div class="imagegallery">
-<img src="dudevapes.jpg" alt="dudevapes" id="image" onclick="change();" >
-</div>
-<div class="imagegallerytext">
-	<h2>New products</h2>
-	<p>We have new products in stock! By pressing next or preious buttons, you can view all the new products! Happy shopping!</p>
-</div>
-
-	<div class="content">
-<div class="imgbuttons">
-<ul>
-	<li id="previous">Previous</li>
-	<li id="next">Next</li>
-</ul>
-</div>
-<div class="Shop">
-	<h1 id="section1">Shop</h1>
-<h2>Flavors</h2>
-<p>here will be pictures</p>
-<img src="vape.jpg">
-<h2>Bases</h2>
-<p>Same pictures</p>
-</div>
-<div class="About">
-	<h1 id="section2">About</h1>
-	<h3>What we are?</h3>
-	<p>We are a personal Vape and e-cigarette retailer </p>
-	<h3>Our location</h3>
-	<p>We only sell our products online and all trasactions are made via Paypal</p>
-</div>
 
 <footer>
 <ul>

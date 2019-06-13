@@ -4,7 +4,14 @@ body{
   background: #222;
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
+  height: 100%;
+  padding: 0;
 }
+ html{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
 .container{
   width: 80%;
   margin: 0 auto;
@@ -12,9 +19,18 @@ body{
 header{
   background: #55d6aa;
 }
-nav{
+.logo {
+  float: left;
+  padding: 10px 0;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+
+nav {
   float: right;
 }
+
 
 header::after{  /* clearfix lai salabotu floatus */
   content: '';
@@ -35,9 +51,8 @@ nav li {    /* lista texts */
   padding-bottom : 25px;
 
   position: relative;
-
-
 }
+
 
 nav a{  /* linki navigacija (pogas) */
 color: #444;
@@ -64,85 +79,3 @@ nav a:hover{
   width: 100%;
   transition: all ease-in-out 250ms;
  }
-
-
-.imagegallery img{
-  float: left;
-width: 600px;
-height: 400px;
-margin-left: 40px;
-margin-top:30px;
-border: solid;
-border-color:red;
-border-width: thin;
-
-
-}
-.imagegallerytext h2{
-  float:right;
-  margin-right: 350px;
-  margin-top: 30px;
-  color:#55d6aa;
-  font-weight: 600;
-  text-transform:uppercase;
-  border:solid;
-  padding:5px;
-}
-.imagegallerytext p{
-  float:right;
-  color:#55d6aa;
-  font-weight: 600;
-  margin-left : 800px;
-}
-
-
-.imgbuttons ul{
-  list-style: none;
-  margin: 0;
-  padding: 0 ;
-}
-.imgbuttons li{
-  display: inline-block;
-  margin-right: 30px;
-  margin-left: 70px;
-  padding-top: 5px;
-  color:#55d6aa;
-  
-
-  border:solid;
-  border-width: thin;
-}
-.content{
-  float:left;
-}
-
-.Shop img{
-  width: 200px;
-  height: 200px;
-  border:1px solid #021a40;
-
-}
-header img{
-	padding: 15px;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-h1{
-  color:#55d6aa;
-}
-h2{
-  color:white;
-}
-p{
-  color: white
-}
-h3{
-  color: white;
-}
-li{
-  color:white;
-}
-
